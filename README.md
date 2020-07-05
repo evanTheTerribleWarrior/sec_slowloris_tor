@@ -43,6 +43,7 @@ Save the file - you do not need to start Tor as the bash script included in the 
 `gcc slow_loris.c -o slow_loris -lpthread -g`  (the flag -g is optional but will help with debugging)
 
 5. Run the main script
+`sudo chmod +x slow_loris_tor`
 `sudo ./slow_loris_tor -t <TARGET_IP> -p <TARGET_PORT> -s <TOTAL_ATTACK_SOCKETS>`
 
 NOTE:
