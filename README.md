@@ -49,4 +49,8 @@ NOTE:
 Currently this code is incomplete. It runs against an IP and performs the attack, but needs changes that will come in subsequent versions.
 But hopefully can be something you can play with and make it awesome!
 
+An execution example below, you can see the different source IP addresses and also a simple refresh on the remote server can't happen as it keeps loading
 
+[![IP addresses](http://i.imgur.com/dwqS5f6.png)]()
+
+[![Constant loading](http://i.imgur.com/8yPJH2x.png)]()
