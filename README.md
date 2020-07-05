@@ -41,7 +41,7 @@ Save the file - you do not need to start Tor as the bash script included in the 
 3. If you define different number of SOCKS ports, you need to go to `header_files/constants.h` and change:
 `TOR_PORTS_NUM` and the tor_ports array
 
-4. Compile the slow_loris.c file, and every time you do changes to it - to be included in the script soon  
+4. Compile the slow_loris.c file, and every time you make changes to it - to be included in the script soon  
 `gcc slow_loris.c -o slow_loris -lpthread -g`  (the flag -g is optional but will help with debugging)
 
 5. Run the main script  
