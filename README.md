@@ -5,7 +5,7 @@ v0.1
 
 This repo is simply an extra version of Slow Loris, that has the following approach:
 1. With Tor installed, you edit the Tor file to indicate how many Socks ports Tor will use (in this example, I use 5 ports by default: 9050-9090)
-2. Then the total sockets that you want to perform the attack with, will be split to the Tor ports and executed in paraller (through threading)
+2. Then the total sockets that you want to perform the attack with, will be split to the Tor ports and executed in parallel (through threading)
 
 The goal of this is to experiment with having multiple IPs from your machine that perform the attack
 
@@ -41,7 +41,7 @@ Save the file - you do not need to start Tor as the bash script included in the 
 3. If you define different number of SOCKS ports, you need to go to `header_files/constants.h` and change:
 `TOR_PORTS_NUM` and the tor_ports array
 
-4. Complile the slow_loris.c file (and every time you do changes to it)  
+4. Compile the slow_loris.c file (and every time you do changes to it) - to be included in the script soon
 `gcc slow_loris.c -o slow_loris -lpthread -g`  (the flag -g is optional but will help with debugging)
 
 5. Run the main script  
