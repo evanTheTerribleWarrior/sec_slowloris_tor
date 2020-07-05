@@ -1,5 +1,5 @@
 # Slow Loris with Tor
-Slow loris DoS attack with Tor ports
+Slow loris DoS attack with Tor ports (tested in Kali Linux 2020)
 
 This repo is simply an extra version of Slow Loris, that has the following approach:
 1. With Tor installed, you edit the Tor file to indicate how many Socks ports Tor will use (in this example, I use 5 ports by default: 9050-9090)
