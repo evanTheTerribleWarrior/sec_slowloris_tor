@@ -55,3 +55,9 @@ An execution example below, you can see the different source IP addresses and al
 [![IP addresses](http://i.imgur.com/dwqS5f6.png)]()
 
 [![Constant loading](http://i.imgur.com/8yPJH2x.png)]()
+
+
+#TODO
+- Fix the (awful) memory management with less static arrays
+- Rework on data types
+- Change unsafe functions like strcpy with safer versions
