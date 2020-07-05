@@ -27,8 +27,7 @@ int main(int argc, char *argv[]){
   time_t t;
   srand((unsigned) time(&t));
   
-  char *ip;
-  ip = (char *)malloc(strlen(argv[1]) * sizeof(char));
+  char ip[20] = "";
   strcpy(ip, argv[1]);
   int port = atoi(argv[2]);
   int socket_num = atoi(argv[3]);
