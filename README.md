@@ -39,11 +39,11 @@ Save the file - you do not need to start Tor as the bash script included in the 
 3. If you define different number of SOCKS ports, you need to go to `header_files/constants.h` and change:
 `TOR_PORTS_NUM` and the tor_ports array
 
-4. Complile the slow_loris.c file (and every time you do changes to it)
+4. Complile the slow_loris.c file (and every time you do changes to it)  
 `gcc slow_loris.c -o slow_loris -lpthread -g`  (the flag -g is optional but will help with debugging)
 
-5. Run the main script
-`sudo chmod +x slow_loris_tor`
+5. Run the main script  
+`sudo chmod +x slow_loris_tor`  
 `sudo ./slow_loris_tor -t <TARGET_IP> -p <TARGET_PORT> -s <TOTAL_ATTACK_SOCKETS>`
 
 NOTE:
